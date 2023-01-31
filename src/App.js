@@ -1,12 +1,11 @@
+import "./App.css";
+
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Button from "react-bootstrap/Button";
 // import image from './img.jpg'
 
-// import React from 'react'
-// import { useHistory } from "react-router-dom";
-import "./App.css";
-// import { useState } from "react";
+
 
 function App() {
   // const history = useHistory();
@@ -43,7 +42,7 @@ function App() {
           </div>
         </Row>
         <Row>
-          <iframe title="This is a unique title" className="border" src={"./components/homepage.js"}/>
+          <iframe title="This is a unique title" className="border" src={"homepage.js"}/>
         </Row>
       </div>
     </Container>
