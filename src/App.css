@@ -1,3 +1,11 @@
+
+.bg {
+  background-image: url("back.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
 .App {
   text-align: center;
 }
@@ -36,3 +44,8 @@
     transform: rotate(360deg);
   }
 }
+
+.btn button{
+  margin: 10px;
+}
+
